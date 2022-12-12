@@ -6,6 +6,9 @@ var cors = require("cors");
 app.use(express.json());
 app.use(cors());
 
+//Añadir el api
+app.use(express.static(__dirname + '/'));
+
 var conexion = mysql.createConnection({
   host: "localhost",
   user: "root",
