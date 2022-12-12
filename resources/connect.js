@@ -10,9 +10,9 @@ app.use(cors());
 app.use(express.static(__dirname + '/'));
 
 var conexion = mysql.createConnection({
-  host: "35.172.131.125",
-  user: "brandon",
-  password: "1234",
+  host: "localhost",
+  user: "root",
+  password: "admin",
   database: "dbRestaurante",
 });
 
