@@ -17,7 +17,7 @@ app.listen(puerto, function () {
 });
 
 //Recursos
-//app.use(express.static(__dirname+'/'));
+app.use(express.static(__dirname+'/'));
 
 
 
