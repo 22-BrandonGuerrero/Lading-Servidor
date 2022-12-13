@@ -4,7 +4,7 @@
 
   app.get('/', (req, res) => {
 	//res.send('Hello World with express!')
-	res.sendFile("/index.html")
+	res.sendFile("/home/ubuntu/proyects/Lading-Servidor/index.html")
 });
 
   app.listen(3000);
