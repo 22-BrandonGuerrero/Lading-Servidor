@@ -4,7 +4,7 @@
 
   app.get('/', (req, res) => {
 	//res.send('Hello World with express!')
-	res.sendFile("C:/Users/User/Desktop/Landing-Page/index.html")
+	res.sendFile("/index.html")
 });
 
   app.listen(3000);
